@@ -15,13 +15,6 @@ const port = process.env.PORT || 4000
 connectDB()
 connectCloudinary()
 
-// allowed origins
-const allowedOrigins = [
-  
-  "https://game-admin-beta.vercel.app",
-  "http://localhost:5173"
-]
-
 // middleware
 app.use(express.json())
 
